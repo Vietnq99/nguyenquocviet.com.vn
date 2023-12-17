@@ -40,10 +40,6 @@ nav {
   height: 17vh;
 }
 
-.logo {
-  font-size: 23px;
-}
-
 .nav-links {
   gap: 2rem;
   list-style: none;
@@ -64,7 +60,7 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 23px;
 }
 
 .logo:hover {
