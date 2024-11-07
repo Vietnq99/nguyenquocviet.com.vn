@@ -1,106 +1,46 @@
-/* Màn hình lớn, tối đa 1400px */
-@media screen and (max-width: 1400px) {
-  #profile {
-    height: auto;
-    margin-bottom: 6rem;
-  }
-  .about-containers {
-    flex-wrap: wrap;
-  }
-  #contact, #projects {
-    height: fit-content;
-  }
-}
-
-/* Màn hình trung bình, tối đa 1200px */
+/* Medium Screen (max-width: 1200px) */
 @media screen and (max-width: 1200px) {
-  #desktop-nav {
+  section {
+    padding: 2rem 5rem;
+  }
+  .nav-links {
     display: none;
   }
   #hamburger-nav {
-    display: flex;
-  }
-  #experience, .experience-details-container {
-    margin-top: 2rem;
-  }
-  #profile, .section-container {
     display: block;
   }
-  .arrow {
-    display: none;
-  }
-  section, .section-container {
-    height: fit-content;
-    margin: 0 5%;
+  .section-container {
+    flex-direction: column;
   }
   .section__pic-container {
     width: 275px;
     height: 275px;
-    margin: 0 auto 2rem;
-  }
-  .about-containers {
-    margin-top: 0;
   }
 }
 
-/* Màn hình nhỏ, tối đa 600px */
+/* Small Screen (max-width: 600px) */
 @media screen and (max-width: 600px) {
-  #contact, footer {
-    height: auto;
+  section {
     padding: 1rem;
   }
-  #profile {
-    height: auto;
-    margin-bottom: 0;
+  nav {
+    padding: 0 1rem;
   }
-  article {
-    font-size: 1rem;
-  }
-  footer nav {
-    height: fit-content;
-    margin-bottom: 2rem;
-  }
-  .about-containers,
-  .contact-info-upper-container,
-  .btn-container {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .contact-info-container {
-    margin: 0;
-  }
-  .contact-info-container p, .nav-links li a {
-    font-size: 1rem;
-  }
-  .experience-sub-title {
-    font-size: 1.25rem;
-  }
-  .logo {
-    font-size: 1.5rem;
-  }
-  .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
+  .menu-links {
+    width: 100%;
   }
   .section__pic-container {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
+    width: 200px;
+    height: 200px;
   }
-  .section__text__p2 {
-    font-size: 1.25rem;
+  .btn {
+    width: 100%;
   }
   .title {
     font-size: 2rem;
     text-align: center;
   }
-  .text-container {
-    text-align: justify;
-    padding: 0 1rem;
-  }
-  .btn-container button {
-    width: 100%;
-    margin-bottom: 0.5rem;
+  footer {
+    flex-direction: column;
   }
 }
