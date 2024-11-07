@@ -59,10 +59,6 @@
     article {
       font-size: 1rem;
     }
-    footer nav {
-      height: fit-content;
-      margin-bottom: 2rem;
-    }
     footer nav ul.nav-links {
         flex-direction: column;
         gap: 1rem;
@@ -80,9 +76,6 @@
       margin: 0;
     }
     .contact-info-container p,
-    .nav-links li a {
-      font-size: 1rem;
-    }
     .experience-sub-title {
       font-size: 1.25rem;
     }
