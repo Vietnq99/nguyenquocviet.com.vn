@@ -35,6 +35,15 @@ nav,
 }
 
 nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
