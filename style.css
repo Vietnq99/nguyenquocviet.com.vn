@@ -201,6 +201,17 @@ section {
   margin-bottom: 0.5rem;
 }
 
+.title-hover {
+    transition: box-shadow 0.3s ease;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.title-hover:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng mờ */
+}
+
+
 #socials-container {
   display: flex;
   justify-content: center;
