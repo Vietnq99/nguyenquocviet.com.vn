@@ -217,6 +217,21 @@ section {
 
 /* BUTTONS */
 
+.button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Màu nền nút ban đầu */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049; /* Màu nền khi hover */
+    cursor: pointer;
+}
+
+
 .btn-container {
   display: flex;
   justify-content: center;
