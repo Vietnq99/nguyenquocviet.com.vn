@@ -36,9 +36,6 @@ nav,
 }
 
 nav {
-  position: fixed;
-  top: 0;
-  z-index: 1000;
   justify-content: space-around;
   align-items: center;
   height: 17vh;
