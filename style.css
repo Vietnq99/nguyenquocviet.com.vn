@@ -38,15 +38,10 @@ nav,
 nav {
   position: fixed;
   top: 0;
-  z-index: 1000;
-  justify-content: space-around;
-  align-items: center;
-  height: 17vh;
-  background: rgba(255, 255, 255, 0.8); /* Nền trắng mờ */
-  backdrop-filter: blur(10px); /* Hiệu ứng mờ */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Bóng nhẹ để làm nổi */
-  border-radius: 8px; /* Bo góc thanh nav */
-  padding: 0 1rem; /* Căn chỉnh */
+  width: 100%;
+  background-color: white; /* Adjust color as needed */
+  z-index: 1000; /* Ensures nav stays on top */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
 }
 
 .nav-links {
