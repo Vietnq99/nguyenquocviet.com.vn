@@ -232,6 +232,10 @@ section {
   border-radius: 2rem;
 }
 
+.btn:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 .btn-color-1,
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
